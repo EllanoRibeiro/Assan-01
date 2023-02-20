@@ -1,0 +1,1212 @@
+
+a{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+
+.m{
+    color: rgb(41, 41, 41);
+}
+
+.jobs{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-mini{
+    transition: ease-in-out 200ms;
+}
+
+.container-mini:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 1px rgb(194, 194, 194);
+}
+
+@media (min-width: 320px){
+
+    .pai{
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        column-gap: 18px;
+     
+    }
+    
+
+
+    header{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100px;
+    }
+
+    header h1{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .conteiner-master-1 h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .master-1{
+        margin-left: 10px;
+    }
+
+    ::placeholder{
+        color: rgb(189, 189, 189);
+    }
+
+    form .palavra-chave{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(230, 230, 230) solid;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+
+    form .palavra-chave:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    form .escolha{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    small{
+        margin-top: 20px;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    .stats-content-2 button{
+        margin-top: 20px;
+        background-color: rgb(252, 252, 252);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+    }
+
+    .stats-content-2 button:hover{
+        margin-top: 20px;
+        background-color: rgb(201, 201, 201);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+        transition: ease-in 200ms;
+    }
+
+    .remote{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .jobs{
+        font-weight: 300;
+        margin-left: 3px;
+    }
+
+    label{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        vertical-align: middle;
+    }
+
+
+    .master-2{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+        color: rgb(122, 122, 122);
+        font-weight: 400;
+    }
+
+    .container-mini img{
+        border-radius: 30%;
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    span{
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -40px;
+    }
+
+    .container-mini{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(192, 192, 192) solid;
+    margin-bottom: 10px;
+    margin: 2%;
+    border-radius: 10px;
+    }
+
+    .container-mini h2{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .container-master-2 button{
+        margin-top: 20px;
+        background-color: rgb(49, 49, 189);
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        height: 38px;
+        width: 140px;
+        margin-left: 29% ;
+        margin-bottom: 40px;
+    }
+
+    .container-master-2 button:hover{
+        background-color: rgb(36, 36, 141);
+        color: white;
+        border: 0;
+        height: 38px;
+        width: 140px;
+        margin-left: 29% ;
+    }
+
+    .master-3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-master-3{
+        border: rgb(192, 192, 192) solid 1PX;
+        margin-left: -10px;
+        border-radius: 10px;
+        margin-bottom: 70px;
+    }
+
+    .content{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+
+    .reset{
+        border: 0px solid;
+        width: 120px;
+        color: rgb(74, 202, 85);
+        margin-top: 20px;
+        text-align: left;
+        background-color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .ultimo-input{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(197, 197, 197) solid;
+        padding-left: 10px;
+    }
+
+    .ultimo-input:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    .container2-master-3 button{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 640px){
+
+    .pai{
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        column-gap: 18px;
+     
+    }
+    
+
+
+    header{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100px;
+    }
+
+    header h1{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .conteiner-master-1 h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .master-1{
+        margin-left: 10px;
+    }
+
+    ::placeholder{
+        color: rgb(189, 189, 189);
+    }
+
+    form .palavra-chave{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(230, 230, 230) solid;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+
+    form .palavra-chave:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    form .escolha{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    small{
+        margin-top: 20px;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    .stats-content-2 button{
+        margin-top: 20px;
+        background-color: rgb(252, 252, 252);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+    }
+
+    .stats-content-2 button:hover{
+        margin-top: 20px;
+        background-color: rgb(201, 201, 201);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+        transition: ease-in 200ms;
+    }
+
+    .remote{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .jobs{
+        font-weight: 300;
+        margin-left: 3px;
+    }
+
+    label{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        vertical-align: middle;
+    }
+
+
+    .master-2{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+        color: rgb(122, 122, 122);
+        font-weight: 400;
+    }
+
+    .container-mini img{
+        border-radius: 30%;
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    span{
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -40px;
+    }
+
+    .container-mini{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(192, 192, 192) solid;
+    margin-bottom: 10px;
+    margin: 2%;
+    border-radius: 10px;
+    }
+
+    .container-mini h2{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .container-master-2 button{
+        margin-top: 20px;
+        background-color: rgb(49, 49, 189);
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        height: 38px;
+        width: 140px;
+        margin-left: 29% ;
+        margin-bottom: 40px;
+    }
+
+    .container-master-2 button:hover{
+        background-color: rgb(36, 36, 141);
+        color: white;
+        border: 0;
+        height: 38px;
+        width: 140px;
+        margin-left: 29% ;
+    }
+
+    .master-3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-master-3{
+        border: rgb(192, 192, 192) solid 1PX;
+        margin-left: -10px;
+        border-radius: 10px;
+        margin-bottom: 70px;
+    }
+
+    .content{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+
+    .reset{
+        border: 0px solid;
+        width: 120px;
+        color: rgb(74, 202, 85);
+        margin-top: 20px;
+        text-align: left;
+        background-color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .ultimo-input{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(197, 197, 197) solid;
+        padding-left: 10px;
+    }
+
+    .ultimo-input:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    .container2-master-3 button{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 768px){
+
+    .pai{
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        column-gap: 18px;
+     
+    }
+    
+
+
+    header{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100px;
+    }
+
+    header h1{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .conteiner-master-1 h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .master-1{
+        margin-left: 10px;
+    }
+
+    ::placeholder{
+        color: rgb(189, 189, 189);
+    }
+
+    form .palavra-chave{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(230, 230, 230) solid;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+
+    form .palavra-chave:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    form .escolha{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    small{
+        margin-top: 20px;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    .stats-content-2 button{
+        margin-top: 20px;
+        background-color: rgb(252, 252, 252);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+    }
+
+    .stats-content-2 button:hover{
+        margin-top: 20px;
+        background-color: rgb(201, 201, 201);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+        transition: ease-in 200ms;
+    }
+
+    .remote{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .jobs{
+        font-weight: 300;
+        margin-left: 3px;
+    }
+
+    label{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        vertical-align: middle;
+    }
+
+
+    .master-2{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+        color: rgb(122, 122, 122);
+        font-weight: 400;
+    }
+
+    .container-mini img{
+        border-radius: 30%;
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    span{
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -40px;
+    }
+
+    .container-mini{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(192, 192, 192) solid;
+    margin-bottom: 10px;
+    margin: 2%;
+    border-radius: 10px;
+    }
+
+    .container-mini h2{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .container-master-2 button{
+        margin-top: 20px;
+        background-color: rgb(49, 49, 189);
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        height: 38px;
+        width: 140px;
+        margin-left: 42% ;
+        margin-bottom: 40px;
+    }
+
+    .container-master-2 button:hover{
+        background-color: rgb(36, 36, 141);
+        color: white;
+        border: 0;
+        height: 38px;
+        width: 140px;
+        margin-left: 29% ;
+    }
+
+    .master-3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-master-3{
+        border: rgb(192, 192, 192) solid 1PX;
+        margin-left: -10px;
+        border-radius: 10px;
+        margin-bottom: 70px;
+    }
+
+    .content{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+
+    .reset{
+        border: 0px solid;
+        width: 120px;
+        color: rgb(74, 202, 85);
+        margin-top: 20px;
+        text-align: left;
+        background-color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .ultimo-input{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(197, 197, 197) solid;
+        padding-left: 10px;
+    }
+
+    .ultimo-input:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    .container2-master-3 button{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+    .super-master{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .pai{
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        column-gap: 18px;
+     
+    }
+    
+
+
+    header{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100px;
+    }
+
+    header h1{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .conteiner-master-1 h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .master-1{
+        margin-left: 10px;
+    }
+
+    ::placeholder{
+        color: rgb(189, 189, 189);
+    }
+
+    form .palavra-chave{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(230, 230, 230) solid;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    form .palavra-chave:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    form .escolha{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    small{
+        margin-top: 20px;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    .stats-content-2 button{
+        margin-top: 20px;
+        background-color: rgb(252, 252, 252);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+    }
+
+    .stats-content-2 button:hover{
+        margin-top: 20px;
+        background-color: rgb(201, 201, 201);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+        transition: ease-in 200ms;
+    }
+
+    .remote{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .jobs{
+        font-weight: 300;
+        margin-left: 3px;
+    }
+
+    label{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        vertical-align: middle;
+    }
+
+
+    .master-2{
+        margin-top: -20%;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+        color: rgb(122, 122, 122);
+        font-weight: 400;
+    }
+
+    .container-mini img{
+        border-radius: 30%;
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    span{
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -40px;
+    }
+
+    .container-mini{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(192, 192, 192) solid;
+    margin-bottom: 10px;
+    margin: 2%;
+    border-radius: 10px;
+    }
+
+    .container-mini h2{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .container-master-2 button{
+        margin-top: 20px;
+        background-color: rgb(49, 49, 189);
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        height: 38px;
+        width: 140px;
+        margin-left: 37% ;
+        margin-bottom: 40px;
+    }
+
+    .container-master-2 button:hover{
+        background-color: rgb(36, 36, 141);
+        color: white;
+        border: 0;
+        height: 38px;
+        width: 140px;
+        margin-left: 29% ;
+    }
+
+    .master-3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-master-3{
+        margin-top: -187%;
+        border: rgb(192, 192, 192) solid 1PX;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-bottom: 70px;
+    }
+
+    .content{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+
+    .reset{
+        border: 0px solid;
+        width: 120px;
+        color: rgb(74, 202, 85);
+        margin-top: 20px;
+        text-align: left;
+        background-color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .ultimo-input{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(197, 197, 197) solid;
+        padding-left: 10px;
+    }
+
+    .ultimo-input:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    .container2-master-3 button{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media (min-width: 1440px){
+
+    .super-master{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .pai{
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        column-gap: 18px;
+     
+    }
+    
+
+
+    header{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100px;
+    }
+
+    header h1{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .conteiner-master-1 h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .master-1{
+        margin-left: 10px;
+    }
+
+    ::placeholder{
+        color: rgb(189, 189, 189);
+    }
+
+    form .palavra-chave{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(230, 230, 230) solid;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    form .palavra-chave:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    form .escolha{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    small{
+        margin-top: 20px;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    .stats-content-2 button{
+        margin-top: 20px;
+        background-color: rgb(252, 252, 252);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+    }
+
+    .stats-content-2 button:hover{
+        margin-top: 20px;
+        background-color: rgb(201, 201, 201);
+        outline: 0;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 3px;
+        color: gray;
+        height: 30px;
+        text-align: center;
+        transition: ease-in 200ms;
+    }
+
+    .remote{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .jobs{
+        font-weight: 300;
+        margin-left: 3px;
+    }
+
+    label{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        vertical-align: middle;
+    }
+
+
+    .master-2{
+        margin-top: -20%;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+        color: rgb(122, 122, 122);
+        font-weight: 400;
+    }
+
+    .container-mini img{
+        border-radius: 30%;
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    span{
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -40px;
+    }
+
+    .container-mini{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(192, 192, 192) solid;
+    margin-bottom: 10px;
+    margin: 2%;
+    border-radius: 10px;
+    }
+
+    .container-mini h2{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .container-master-2 button{
+        margin-top: 20px;
+        background-color: rgb(49, 49, 189);
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        height: 38px;
+        width: 140px;
+        margin-left: 37% ;
+        margin-bottom: 40px;
+    }
+
+    .container-master-2 button:hover{
+        background-color: rgb(36, 36, 141);
+        color: white;
+        border: 0;
+        height: 38px;
+        width: 140px;
+        margin-left: 29% ;
+    }
+
+    .master-3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-master-3{
+        margin-top: -130%;
+        border: rgb(192, 192, 192) solid 1PX;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-bottom: 70px;
+    }
+
+    .content{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+
+    .reset{
+        border: 0px solid;
+        width: 120px;
+        color: rgb(74, 202, 85);
+        margin-top: 20px;
+        text-align: left;
+        background-color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .ultimo-input{
+        width: 93%;
+        height: 35px;
+        border-radius: 7px;
+        outline: 0;
+        border: 1px rgb(197, 197, 197) solid;
+        padding-left: 10px;
+    }
+
+    .ultimo-input:focus{
+        border: 1px solid rgb(12, 109, 49);
+        outline: 0;
+    }
+
+    .container2-master-3 button{
+        background-color: rgb(64, 207, 64);
+        width: 97%;
+        border: 1px solid;
+        margin-top: 15px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+
+}
